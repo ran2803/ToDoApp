@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #cac9c9;
+}
+
+header {
+  height: 150px;
+  width: 100%;
+  overflow:hidden
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center -400px;
+}
+
+.App-Container {
+  text-align: center;
+  padding: 10px;}
+
+h1 {
+  color: black;
+}
+
+.textBox {
+  width: 800px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  margin: 10px;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+  width: 780px;
+}
+
+li:nth-child(even) {
+  background-color: #dedcdc;
+}
+
+.add {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #adadad;
+}
+
+.add:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.form-check-input {
+  margin-right: 8px;
+}
